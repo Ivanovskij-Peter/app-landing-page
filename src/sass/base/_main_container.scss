@@ -1,0 +1,13 @@
+.main_container {
+  z-index: 0;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  transition: 2s;
+  border-radius: 50px;
+  position: relative;
+
+  @media screen and(max-width:880px) {
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,19 @@
+.button {
+  z-index: 200;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #fff;
+  margin-top: 40px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.button_pink {
+  @extend .button;
+  background-color: $accent-color;
+  color: $primary-text-color;
+}

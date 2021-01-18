@@ -1,0 +1,63 @@
+.container_list {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and(max-width: $screen-md) {
+    width: 100%;
+  }
+}
+.container_item {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  overflow: auto;
+  @media screen and(max-width: $screen-md) {
+    width: 45%;
+  }
+}
+.container_item_title {
+  padding: 0;
+  margin: 0;
+  transition: 0.3s;
+  margin-bottom: 10px;
+  vertical-align: inherit;
+  font-weight: 600;
+  @media screen and (max-width: $screen-md) {
+    font-size: 20px;
+  }
+}
+.container_item_text {
+  vertical-align: inherit;
+  line-height: 2;
+  @media screen and(max-width: $screen-sm) {
+    font-size: 13px;
+  }
+  @media screen and(min-width: $screen-md) {
+    font-size: 14px;
+  }
+  @media screen and(min-width: $screen-lg) {
+    font-size: 15px;
+  }
+}
+.defaultShadow {
+  box-shadow: 0 21px 114px -14px rgba(251, 104, 168, 0.29);
+  border-radius: 150px;
+  overflow: hidden;
+  margin: 15px;
+  width: 70px;
+  height: 70px;
+}
+.containerWrap_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+.main_title {
+  width: 52%;
+  margin-bottom: 30px;
+  @media (min-width: $screen-md) {
+    width: 70%;
+  }
+}

@@ -44,15 +44,18 @@
   box-shadow: 0 21px 114px -14px rgba(251, 104, 168, 0.29);
   border-radius: 150px;
   overflow: hidden;
-  margin: 15px;
-  width: 70px;
-  height: 70px;
+  margin: 30px;
+  width: 100px;
+  height: 100px;
 }
 .containerWrap_list {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
+  @media (max-width: $screen-md) {
+    width: 100%;
+  }
 }
 .main_title {
   width: 52%;
@@ -60,4 +63,17 @@
   @media (min-width: $screen-md) {
     width: 70%;
   }
+}
+.index_vecto {
+  width: 900px;
+  top: 120px;
+  right: -150px;
+}
+.vecto_asset {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 94px;
+  transition: 0.3s;
+  width: 600px;
 }

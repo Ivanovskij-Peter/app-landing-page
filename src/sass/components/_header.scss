@@ -9,10 +9,36 @@
   top: 0;
   right: 0;
   left: 0;
-  font-weight: 700;
   width: 100%;
   height: 70px;
   transition: 0.3s;
+}
+.menu_content_title {
+  font-size: 20px;
+  line-height: 2;
+}
+.menu {
+  display: inline-block;
+  padding-left: 0;
+  @media (max-width: 880px) {
+    display: none;
+  }
+}
+.menu_item {
+  float: left;
+  margin-right: 35px;
+  cursor: pointer;
+}
+.menu_item:hover {
+  color: #fc759b;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  transition: 0.3s;
+}
+.menu_item_text {
+  font-size: 15px;
+  line-height: 2;
+  text-transform: uppercase;
 }
 .menu_content {
   display: flex;

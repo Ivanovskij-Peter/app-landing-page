@@ -1,8 +1,8 @@
 <footer>
   <div class="container">
     <h2 class="container_title">Questions fréquentes</h2>
-    <ul>
-      <li>
+    <ul class="questions_list">
+      <li class="questions_item">
         <p>Quelle est la durée de garantie de vos prestations?</p>
         <p>
           Toutes nos prestations sont garanties pendant huit mois. Nous
@@ -10,7 +10,7 @@
           projet.
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>Quels sont les délais de livraison?</p>
         <p>
           Chaque projet est différent, évidemment, mais de manière générale nous
@@ -18,7 +18,7 @@
           mois et demi pour une application plus complexe.
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>
           Le design ne me plaît pas, est-ce que je peux demander à le modifier?
         </p>
@@ -27,15 +27,15 @@
           (même après le début du développement).
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>Que faire si je ne suis pas satisfait du résultat final?</p>
         <p>
           Il est important pour nous que vous soyez satisfait, vous pouvez
           contacter votre chef de projet pour demander des modifications à tout
           moment.
         </p>
-      </li>
-      <!-- <li>
+      </li class="questions_item">
+      <!-- <li class="questions_item">
         <p>Quelles technologies utilisez-vous?</p>
         <p>
           Nous travaillons principalement avec des frameworks JavaScript
@@ -46,7 +46,7 @@
           appareils qui sont connectés à votre plateforme.
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>Est-ce que mon application sera 'native'?</p>
         <p>
           Oui, nous ne pensons pas que les applications dites 'hybrides' soient
@@ -55,7 +55,7 @@
           offre la même qualité qu'Instagram, Pinterest, Facebook, ...
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>
           Est-ce que mon projet pourra accueillir des milliers/millions
           d'utilisateurs?
@@ -66,7 +66,7 @@
           performances.
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>Comment est-ce que je pourrai gérer mon projet?</p>
         <p>
           Nous livrons nos clients avec une solution clé en main qui leur permet
@@ -76,7 +76,7 @@
           comportements inadaptés mais aussi de gérer leurs campagnes marketing.
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>Combien coûte l'hébergement?</p>
         <p>
           Pour démarrer, comptez vingt cinq euros mensuels pour plusieurs
@@ -85,7 +85,7 @@
           revenus générés.
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>Combien coûtent les modifications?</p>
         <p>
           Nous ne facturons pas les changements mineurs (moins de deux heures de
@@ -94,7 +94,7 @@
           gratuit à votre chef de projet.
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>
           Que faites-vous pour assurer la sécurité et la confidentialité de mon
           projet?
@@ -106,7 +106,7 @@
           n'ont même pas connaissance de son existence.
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>Est-ce que mon application risque de se faire pirater?</p>
         <p>
           Le risque zéro n'existe pas. Cependant, tout est mis en place pour
@@ -119,21 +119,21 @@
           PIN à quatre caractères avant chaque transaction.
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>Combien d'années d'expérience ont vos développeurs?</p>
         <p>
           Nos développeurs ont tous au minimum 10 ans d'expérience en
           développement.
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>Est-ce que vous allez sous-traiter mon projet?</p>
         <p>
           Non, votre projet est réalisé intégralement en interne à Bordeaux par
           nos équipes. Il n'y a aucune sous-traitance.
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>Est-ce que je suis 100% propriétaire du code source?</p>
         <p>
           Oui, le contrat signé en début de mission stipule noir sur blanc que
@@ -141,7 +141,7 @@
           projet.
         </p>
       </li>
-      <li>
+      <li class="questions_item">
         <p>
           Est-ce que vous proposez une assistance à la création d'entreprise?
         </p>
@@ -153,348 +153,393 @@
         </p>
       </li> -->
     </ul>
-    <button>Afficher moins de questions</button>
+    <button class="question_button"><p class="question_button_text">Afficher moins de questions</p></button>
   </div>
-  <div class="">
-    <h2>Ils nous font confiance</h2>
+  <div class="container">
+    <div class="partners">
+      <h2 class="partners_title">Ils nous font confiance</h2>
+      <div class="partners_container">
+        <ul class="partners_list">
+          <li class="partners_item">
+            <div>
+              <img
+              class="partners_item_block_image"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Vianney Loridan</h4>
+            <p>BetM</p>
+            <p>
+              Agence de confiance avec une équipe professionnelle, à l'écoute des
+              besoins et en mesure de nous accompagner sur l'évolution de notre
+              produit.
+            </p>
+            </div>
+          </li>
+          <li class="partners_item" >
+            <div class="partners_item_block"> 
+              <img
+              class="partners_item_block_image"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Ferdi Dogan</h4>
+            <p>Mooderz</p>
+            <p>
+              Les compétences nécessaires en terme de design et de développement
+              pour réaliser notre vision. Très réactifs et produit final de grande
+              qualité.
+            </p>
+
+            </div>
+          </li>
+          <li class="partners_item">
+            <div>
+              <img
+              class="partners_item_block_image"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Patrick Tassa</h4>
+            <p>CAFPI</p>
+            <p>
+              Respect parfait des délais, finitions de qualité et réactivité.
+              L'agence a été de plus en mesure de former nos équipes au
+              développement mobile.
+            </p>
+
+            </div>
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Thierry Malka</h4>
+            <p>BeCheck</p>
+            <p>
+              Agence Minuit a réalisé l’application avec un grand
+              professionnalisme et un très bon niveau technique. Je recommande
+              cette agence pour tenir les délais.
+            </p>
+            </div>
+            
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Maxime Batistello</h4>
+            <p>Ping Progress</p>
+            <p>
+              L’Agence Minuit a su comprendre mon idée et réalisant mon
+              application mobile à la perfection. Équipe à l’écoute et réactive!
+            </p>
+            </div>
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Patrick Tassa</h4>
+            <p>CAFPI</p>
+            <p>
+              Respect parfait des délais, finitions de qualité et réactivité.
+              L'agence a été de plus en mesure de former nos équipes au
+              développement mobile.
+            </p>
+            </div>
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block"> 
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Vianney Loridan</h4>
+            <p>BetM</p>
+            <p>
+              Agence de confiance avec une équipe professionnelle, à l'écoute des
+              besoins et en mesure de nous accompagner sur l'évolution de notre
+              produit.
+            </p>
+            </div>
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Ferdi Dogan</h4>
+            <p>Mooderz</p>
+            <p>
+              Les compétences nécessaires en terme de design et de développement
+              pour réaliser notre vision. Très réactifs et produit final de grande
+              qualité.
+            </p>
+            </div>
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Patrick Tassa</h4>
+            <p>CAFPI</p>
+            <p>
+              Respect parfait des délais, finitions de qualité et réactivité.
+              L'agence a été de plus en mesure de former nos équipes au
+              développement mobile.
+            </p>
+            </div>
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Thierry Malka</h4>
+            <p>BeCheck</p>
+            <p>
+              Agence Minuit a réalisé l’application avec un grand
+              professionnalisme et un très bon niveau technique. Je recommande
+              cette agence pour tenir les délais.
+            </p>
+            </div> 
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Maxime Batistello</h4>
+            <p>Ping Progress</p>
+            <p>
+              L’Agence Minuit a su comprendre mon idée et réalisant mon
+              application mobile à la perfection. Équipe à l’écoute et réactive!
+            </p>
+            </div>
+  
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Patrick Tassa</h4>
+            <p>CAFPI</p>
+            <p>
+              Respect parfait des délais, finitions de qualité et réactivité.
+              L'agence a été de plus en mesure de former nos équipes au
+              développement mobile.
+            </p>
+            </div>
+            
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Vianney Loridan</h4>
+            <p>BetM</p>
+            <p>
+              Agence de confiance avec une équipe professionnelle, à l'écoute des
+              besoins et en mesure de nous accompagner sur l'évolution de notre
+              produit.
+            </p>
+            </div>
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Ferdi Dogan</h4>
+            <p>Mooderz</p>
+            <p>
+              Les compétences nécessaires en terme de design et de développement
+              pour réaliser notre vision. Très réactifs et produit final de grande
+              qualité.
+            </p>
+            </div>
+           
+          </li>
+          <li class="partners_item">
+            <div  class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Patrick Tassa</h4>
+            <p>CAFPI</p>
+            <p>
+              Respect parfait des délais, finitions de qualité et réactivité.
+              L'agence a été de plus en mesure de former nos équipes au
+              développement mobile.
+            </p>
+            </div>
+            
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Ferdi Dogan</h4>
+            <p>Mooderz</p>
+            <p>
+              Les compétences nécessaires en terme de design et de développement
+              pour réaliser notre vision. Très réactifs et produit final de grande
+              qualité.
+            </p>
+            </div>
+            
+          </li>
+          <li class="partners_item">
+            <div class="partners_item_block">
+              <img
+              class="defaultImage"
+              src="images/icons/mooderz.jpg"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+            <h4>Vianney Loridan</h4>
+            <p>BetM</p>
+            <p>
+              Agence de confiance avec une équipe professionnelle, à l'écoute des
+              besoins et en mesure de nous accompagner sur l'évolution de notre
+              produit.
+            </p>
+            </div>
+            
+          </li>
+        </ul>
+      </div>
+      <div >
+        <ul class="clients_container">
+          <li class="clients_container_item">
+            <a href="https://www.betm.co/">
+              <div>
+                <img src="images/logo/betM.png" alt="" width="42px" height="30px" />
+              </div>
+            </a>
+          </li>
+          <li class="clients_container_item">
+            <a href="https://www.cafpi.fr/">
+              <div>
+                <img
+                  src="images/logo/cafpi.png"
+                  alt=""
+                  width="124px"
+                  height="21.6px"
+                />
+              </div>
+            </a>
+          </li>
+          <li class="clients_container_item">
+            <a href="https://www.springbox.ai/">
+              <div>
+                <img
+                  src="images/logo/springbox.png"
+                  alt=""
+                  width="66px"
+                  height="30px"
+                />
+              </div>
+            </a>
+          </li>
+          <li class="clients_container_item">
+            <a href="https://www.euromaster.fr/particulier">
+              <div>
+                <img
+                  src="images/logo/euromaster.png"
+                  alt=""
+                  width="150px"
+                  height="20.15"
+                />
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div> 
+    <div class="contacts_us">
+      <h3 class="contacts_us_text">Vous avez un projet?</h3>
+      <button class="button_footer">
+        <p>commencer</p>
+      </button>
+    </div>
     <div>
-      <ul>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Vianney Loridan</h4>
-          <p>BetM</p>
-          <p>
-            Agence de confiance avec une équipe professionnelle, à l'écoute des
-            besoins et en mesure de nous accompagner sur l'évolution de notre
-            produit.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Ferdi Dogan</h4>
-          <p>Mooderz</p>
-          <p>
-            Les compétences nécessaires en terme de design et de développement
-            pour réaliser notre vision. Très réactifs et produit final de grande
-            qualité.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Patrick Tassa</h4>
-          <p>CAFPI</p>
-          <p>
-            Respect parfait des délais, finitions de qualité et réactivité.
-            L'agence a été de plus en mesure de former nos équipes au
-            développement mobile.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Thierry Malka</h4>
-          <p>BeCheck</p>
-          <p>
-            Agence Minuit a réalisé l’application avec un grand
-            professionnalisme et un très bon niveau technique. Je recommande
-            cette agence pour tenir les délais.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Maxime Batistello</h4>
-          <p>Ping Progress</p>
-          <p>
-            L’Agence Minuit a su comprendre mon idée et réalisant mon
-            application mobile à la perfection. Équipe à l’écoute et réactive!
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Patrick Tassa</h4>
-          <p>CAFPI</p>
-          <p>
-            Respect parfait des délais, finitions de qualité et réactivité.
-            L'agence a été de plus en mesure de former nos équipes au
-            développement mobile.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Vianney Loridan</h4>
-          <p>BetM</p>
-          <p>
-            Agence de confiance avec une équipe professionnelle, à l'écoute des
-            besoins et en mesure de nous accompagner sur l'évolution de notre
-            produit.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Ferdi Dogan</h4>
-          <p>Mooderz</p>
-          <p>
-            Les compétences nécessaires en terme de design et de développement
-            pour réaliser notre vision. Très réactifs et produit final de grande
-            qualité.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Patrick Tassa</h4>
-          <p>CAFPI</p>
-          <p>
-            Respect parfait des délais, finitions de qualité et réactivité.
-            L'agence a été de plus en mesure de former nos équipes au
-            développement mobile.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Thierry Malka</h4>
-          <p>BeCheck</p>
-          <p>
-            Agence Minuit a réalisé l’application avec un grand
-            professionnalisme et un très bon niveau technique. Je recommande
-            cette agence pour tenir les délais.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Maxime Batistello</h4>
-          <p>Ping Progress</p>
-          <p>
-            L’Agence Minuit a su comprendre mon idée et réalisant mon
-            application mobile à la perfection. Équipe à l’écoute et réactive!
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Patrick Tassa</h4>
-          <p>CAFPI</p>
-          <p>
-            Respect parfait des délais, finitions de qualité et réactivité.
-            L'agence a été de plus en mesure de former nos équipes au
-            développement mobile.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Vianney Loridan</h4>
-          <p>BetM</p>
-          <p>
-            Agence de confiance avec une équipe professionnelle, à l'écoute des
-            besoins et en mesure de nous accompagner sur l'évolution de notre
-            produit.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Ferdi Dogan</h4>
-          <p>Mooderz</p>
-          <p>
-            Les compétences nécessaires en terme de design et de développement
-            pour réaliser notre vision. Très réactifs et produit final de grande
-            qualité.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Patrick Tassa</h4>
-          <p>CAFPI</p>
-          <p>
-            Respect parfait des délais, finitions de qualité et réactivité.
-            L'agence a été de plus en mesure de former nos équipes au
-            développement mobile.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Ferdi Dogan</h4>
-          <p>Mooderz</p>
-          <p>
-            Les compétences nécessaires en terme de design et de développement
-            pour réaliser notre vision. Très réactifs et produit final de grande
-            qualité.
-          </p>
-        </li>
-        <li>
-          <img
-            class="defaultImage"
-            src="images/icons/mooderz.jpg"
-            alt=""
-            width="60px"
-            height="60px"
-          />
-          <h4>Vianney Loridan</h4>
-          <p>BetM</p>
-          <p>
-            Agence de confiance avec une équipe professionnelle, à l'écoute des
-            besoins et en mesure de nous accompagner sur l'évolution de notre
-            produit.
-          </p>
-        </li>
+      <ul class="footer_menu">
+        <li class="footr_menu_item"><p class="footer_menu_item_text">Accueil</p></li>
+        <li class="footr_menu_item"><p class="footer_menu_item_text">Start</p></li>
+        <li class="footr_menu_item"><p class="footer_menu_item_text">Blog</p></li>
+        <li class="footr_menu_item"><p class="footer_menu_item_text">Contact</p></li>
       </ul>
     </div>
-  </div>
-  <div>
-    <ul>
-      <li>
-        <a href="https://www.betm.co/">
-          <div>
-            <img src="images/logo/betM.png" alt="" width="42px" height="30px" />
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.cafpi.fr/">
-          <div>
-            <img
-              src="images/logo/cafpi.png"
-              alt=""
-              width="124px"
-              height="21.6px"
-            />
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.springbox.ai/">
-          <div>
-            <img
-              src="images/logo/springbox.png"
-              alt=""
-              width="66px"
-              height="30px"
-            />
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.euromaster.fr/particulier">
-          <div>
-            <img
-              src="images/logo/euromaster.png"
-              alt=""
-              width="150px"
-              height="20.15"
-            />
-          </div>
-        </a>
-      </li>
-    </ul>
-  </div>
-  <div class="contacts_us">
-    <h3>Vous avez un projet?</h3>
-    <button>
-      <p>commencer</p>
-    </button>
-  </div>
-  <div>
-    <ul class="">
-      <li class="menu_item"><p>Accueil</p></li>
-      <li class="menu_item"><p>Start</p></li>
-      <li class="menu_item"><p>Blog</p></li>
-      <li class="menu_item"><p>Contact</p></li>
-    </ul>
-  </div>
-  <div>
-    <p>Minuit.agency - All Rights Reserved 2020</p>
-    <p>Mentions légales</p>
+    <div class="footer_footerlist">
+      <p class="footer_footerlist_item">Minuit.agency - All Rights Reserved 2020</p>
+      <p class="footer_footerlist_item">Mentions légales</p>
+    </div>
   </div>
 </footer>

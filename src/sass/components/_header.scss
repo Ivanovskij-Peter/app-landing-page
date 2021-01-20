@@ -17,13 +17,7 @@
   font-size: 20px;
   line-height: 2;
 }
-.menu {
-  display: inline-block;
-  padding-left: 0;
-  @media (max-width: 880px) {
-    display: none;
-  }
-}
+
 .menu_item {
   float: left;
   margin-right: 35px;
@@ -36,9 +30,21 @@
   transition: 0.3s;
 }
 .menu_item_text {
-  font-size: 15px;
+  font-size: 55px;
+  margin-bottom: 40px;
+  font-weight: 700;
   line-height: 2;
   text-transform: uppercase;
+  @media screen and (min-width: 414px) {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 880px) {
+    font-size: 35px;
+  }
+  @media screen and (min-width: 1050px) {
+    font-size: 55px;
+  }
 }
 .menu_content {
   display: flex;
